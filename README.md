@@ -23,23 +23,26 @@ This Weather Application provides real-time weather information along with a ran
 
 ### Installation
 1. **Clone the Repository**
+```
 git clone [repository_url]
 cd [repository_name]
-
-2. **Install Dependencies**
+```
+3. **Install Dependencies**
+```
 npm install
-
-3. **Environment Variables**
+```
+4. **Environment Variables**
 - Create a `.env` file in the root directory.
 - Add the following line (replace `[your_api_key]` with your actual OpenWeatherMap API key):
   ```
   OPENWEATHER_API_KEY=[your_api_key]
   ```
 
-4. **Start the Server**
+5. **Start the Server**
+```
 node server.js
-
-5. **Access the Application**
+```
+6. **Access the Application**
 - Open a web browser and navigate to `http://localhost:3000`.
 
 ## API Usage
